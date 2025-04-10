@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+}
+.container{
+    width: 1200px;
+    height: 600px;
+    margin: 50px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    .top{
+        position: relative;
+        top: -150px;
+        left: -650px;
+        font-size: 60px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    h1{
+        font-size: 55px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .bottom{
+        width: 100px;
+        margin-top: 150px;
+        background-color: white;
+        border-radius: 40px;
+        padding: 2px 0px;
+        .bottom-in{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            position: relative;
+            cursor: pointer;
+            left: 0;
+            transition: 0.5s !important;
+            
+        }
+    }
+}
+
+.bt_in{
+    left: 51px !important;
+}
+.body-in{
+    background-color: white;
+}
+.white1{
+    color: black;
+}
+.white2{
+    color: black;
+}
+.bottom1{
+    background-color: green !important;
+}
+
+.head{
+    width: 1200px;
+    height: 50px;
+    position: absolute;
+    left: -1200px;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        li{
+            list-style: none;
+            align-self: center;
+            .uzgarish{
+                color: white;
+                text-decoration: none;
+            }
+            button{
+                width:80px;
+                height: 30px;
+                background-color: red;
+                border: none;
+                color: white;
+                border-radius: 20px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+.top_change{
+    left: 700px !important;
+    top: -160px !important;
+    transform: rotate(180deg);
+}
+
+.head_change{
+    left: 200px !important;
+}
+.uzgarish2{
+    color: black !important;
+}
+
